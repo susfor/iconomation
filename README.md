@@ -1,17 +1,10 @@
-# Redesign Assignment
+# Iconomation Assignment
 
-Pick some organization (government agency, school, your high school alumni group...basically anything not for-profit) and give their homepage a makeover.
+Create an animation that walks the viewer through some process, using only icons/emoticons/emoji. See http://bfl-itp.github.io/iconomation/ for a demo. Even without knowing *any* JavaScript, the code in [`scripts/iconomation.js`](scripts/iconomation.js) should be enough to get you started. What's included on the page:
 
-* Change this README to explain the issues you identified with the existing site
-* Modify [`index.html`](index.html) (and add stylesheets, images, whatever) in this repository to give an example of how their site could:
-    * Present information more clearly
-    * Work well in mobile browsers
-    * Be generally friendlier to the user
+* [jQuery](http://jquery.com/)
+* [Additional "easing" functions for jQuery](http://jqueryui.com/easing/)
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+* [Emoji CSS](http://afeld.github.io/emoji-css/)
 
-You are strongly encouraged to use [Bootstrap](http://getbootstrap.com/). If your design skills are lacking, feel free to rip off the look of an existing site – just make sure to give it credit.
-
-## Example Sites
-
-* [Federal Student Aid](https://studentloans.gov/)
-* [US Department of Education](http://www.ed.gov/)
-* [US Senate](http://www.senate.gov/)
+Feel free to add any images or [other icon libraries](http://weloveiconfonts.com/) you need.
