@@ -22,6 +22,10 @@ $('.em-rooster').animate({
   left: 50
 }, 1000);
 
-$('.fa-futbol-o').delay(660).animate({
-  left: 0
-}, 800, 'easeOutQuart');
+// after 660ms...
+setTimeout(function() {
+  // ...move the ball
+  $('.fa-futbol-o').animate({
+    left: 0
+  }, 800, 'easeOutQuart');
+}, 660);
