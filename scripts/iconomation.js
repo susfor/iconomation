@@ -36,7 +36,7 @@ $('.em-older_man').css({
 });
 $('.em-person_with_blond_hair').css({
   top: 300,
-  left: 400
+  left: 400,
 });
 
 $('.em-thumbsup').css("visibility", "hidden");
@@ -44,7 +44,7 @@ $('.em-thumbsup').css("visibility", "hidden");
 // vote!
 
 $('.em-two_men_holding_hands').animate({
-  top: 50
+  top: 70
 }, 1000);
 
 
@@ -59,7 +59,6 @@ for(var k=0;k<5;k++){
 
    if(k==0){
 	   setTimeout(function() {
-	      console.log("CODE TO BE EXECUTED"+k);
 	      $('.em-older_woman, .em-man, .em-person_with_blond_hair').animate({
 	    	top: 150
 	  	  }, 800, 'easeOutQuart');
@@ -67,11 +66,11 @@ for(var k=0;k<5;k++){
 	}
 	else if (k==1){
 	   setTimeout(function() {
-	      console.log("CODE TO BE EXECUTED"+k);
-	      $('.em-thumbsup').css("visibility","visible",{
-			  top: 100,
-			  left: 400,
-			});
+	      $('.em-thumbsup').css("visibility","visible");
+	      $('.em-thumbsup').css({
+ 			 top: 30,
+
+		  });
 	  	 },myArray[1]);	
 	}
 }
