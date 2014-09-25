@@ -66,9 +66,11 @@ for(var k=0;k<5;k++){
 	}
 	else if (k==1){
 	   setTimeout(function() {
-	      $('.em-thumbsup').css("visibility","visible");
+	      //$('.em-thumbsup').css("visibility","visible");
 	      $('.em-thumbsup').css({
  			 top: 30,
+ 			 visibility: "visible",
+ 			 transform: "scale(2,2)"
 
 		  });
 	  	 },myArray[1]);	
